@@ -12,8 +12,9 @@ GROUP_LINK = "https://t.me/fact_fun18"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         f"Welcome {update.effective_user.first_name}!\n\n"
-        f"Join our Channel: {Chttps://t.me/fact_and_fun}\n"
-        f"Join our Group: {https://t.me/fact_fun18}"
+        f"Join our Channel: https://t.me/fact_and_fun\n"
+      
+        f"Join our Group: https://t.me/fact_fun18"
     )
 
 # /post handler for owner only
