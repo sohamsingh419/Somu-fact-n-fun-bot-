@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("8117854915:AAG7lY_PijpVo64nEadZO-tTifJgHTHVzp8")
+BOT_TOKEN = os.getenv("")
 OWNER_ID = int(os.getenv("OWNER_ID", "5962449368"))  # Replace with your ID or use env var
 
 CHANNEL_LINK = "https://t.me/fact_and_fun"
